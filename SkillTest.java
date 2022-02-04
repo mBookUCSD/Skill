@@ -5,6 +5,6 @@ public class SkillTest {
     @Test
     public void factTest() {
         Skill s = new Skill();
-        assertEquals(100, s.factorial(5));
+        assertEquals(120, s.factorial(5));
     }
 }
